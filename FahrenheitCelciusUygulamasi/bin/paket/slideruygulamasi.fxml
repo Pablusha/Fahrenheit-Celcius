@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paket.Kontrolcu">
+   <children>
+      <Slider fx:id="sldSicaklik" blockIncrement="1.0" layoutX="24.0" layoutY="30.0" majorTickUnit="10.0" max="50.0" prefHeight="25.0" prefWidth="226.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="25.0" />
+      <TextField fx:id="txtFahrenheit" editable="false" layoutX="24.0" layoutY="105.0" prefHeight="25.0" prefWidth="226.0" promptText="Fahrenheit:" />
+      <TextField fx:id="txtCelcius" editable="false" layoutX="24.0" layoutY="140.0" prefHeight="25.0" prefWidth="226.0" promptText="Celcius:" />
+   </children>
+</AnchorPane>
